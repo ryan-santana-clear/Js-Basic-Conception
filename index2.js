@@ -2,9 +2,9 @@
  * Structures Condition Switch
  */
 
-let cor = "Purple";
+let cores = "Purple";
 
-switch(cor){
+switch(cores){
 
     case "Blue":
         console.log("Sky");
