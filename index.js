@@ -86,3 +86,19 @@ let calc3 = (x1, x2, operator) => {
 let result3 = calc3(3, 7, "+");
 
 console.log(result3);
+
+/**
+ * Difference between window and document
+ */
+
+window.addEventListener('focus', event => {
+
+console.log("focus");
+
+});
+
+document.addEventListener('click', event => {
+
+    console.log('click');
+
+});
