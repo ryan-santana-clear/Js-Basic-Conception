@@ -41,3 +41,15 @@ console.log("Sky and Cloud");
 console.log("Et");
 
 }
+
+/**
+ * Structures FOR 
+ */
+
+let n = 7;
+
+for (let c = 0; c <=10; c++) {
+
+    console.log(`${c} X ${n} = ${c*n}`);
+
+}
