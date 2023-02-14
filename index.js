@@ -102,3 +102,18 @@ document.addEventListener('click', event => {
     console.log('click');
 
 });
+
+/**
+ * Data and TimeStump (Number of seconds since 01/01/1970, in miliseconds)
+ */
+
+let now = Date.now();
+
+console.log(now);
+
+let Now = new Date();
+
+console.log(Now.getDate());
+console.log(Now.getFullYear());
+console.log(Now.getMonth()); // Start of Zero, so month - 1 
+console.log(Now.toLocaleDateString("pt-br"))
