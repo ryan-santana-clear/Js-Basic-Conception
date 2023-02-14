@@ -10,7 +10,7 @@ console.log(HelloWorld);
 console.log(HelloWorld);
 
 /**
- * Learning  Operators
+ * Learning  Operators 
  */
 
 let a = 10;
@@ -21,3 +21,23 @@ console.log(a === b); // False
 console.log(a !== b); // True
 console.log(a == 10 && b == 10);  // True
 console.log(a == b || typeof a == 'string'); // True becaseu compare type number with string
+
+/**
+ * Condition structures
+ */
+
+let cor = "Blue";
+
+if (cor === "Green") {
+
+    console.log("Earth");
+
+} else if(cor === "Blue") {
+
+console.log("Sky and Cloud");
+
+} else {
+
+console.log("Et");
+
+}
