@@ -43,7 +43,7 @@ console.log("Et");
 }
 
 /**
- * Structures FOR 
+ * Structures FOR and Template Strings
  */
 
 let n = 7;
@@ -53,3 +53,36 @@ for (let c = 0; c <=10; c++) {
     console.log(`${c} X ${n} = ${c*n}`);
 
 }
+
+
+/**
+ * Function in Practice (Also anonymous function and ArrowFuntion)
+ */
+
+function calc(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+}
+
+let result = calc(3, 7, "+");
+
+
+console.log(result);
+
+(function(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+})(3, 7, "+");
+
+
+let calc3 = (x1, x2, operator) => {
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+}
+
+let result3 = calc3(3, 7, "+");
+
+console.log(result3);
