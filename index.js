@@ -117,3 +117,18 @@ console.log(Now.getDate());
 console.log(Now.getFullYear());
 console.log(Now.getMonth()); // Start of Zero, so month - 1 
 console.log(Now.toLocaleDateString("pt-br"))
+
+/**
+ * Conception of Array
+ */
+
+let cars = ["Gol", "Celta", "caravan", false, new Date(), function(){}, 20];
+
+console.log(cars);
+console.log(cars.length);
+console.log(cars[4].getFullYear());
+cars.forEach(function(value, index){
+
+    console.log(index, value);
+
+});
